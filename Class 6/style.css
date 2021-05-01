@@ -2,7 +2,10 @@
 {
     position:static;
     top: 40px;
-    background-color: aqua;
+    color:black;
+    text-shadow: 2px 2px 5px teal;
+    font-size:xx-large;
+    text-align: center;
 }
 .second-div
 {
@@ -21,12 +24,12 @@
 .fourth-div
 {
     position: fixed;
-    top: 10%;
+    top:30%;
     background-color: cornflowerblue;
 }
 .fifth-div
 {
     position: sticky;
     background-color: darkgoldenrod;
-    top: 60px;
+    top: 100px;
 }
