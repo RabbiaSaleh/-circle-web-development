@@ -1,0 +1,32 @@
+.first-div
+{
+    position:static;
+    top: 40px;
+    background-color: aqua;
+}
+.second-div
+{
+    position: relative;
+    left: 20px;
+    top: 90px;
+    background-color: cadetblue;
+}
+.third-div
+{
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    background-color:coral ;
+}
+.fourth-div
+{
+    position: fixed;
+    top: 10%;
+    background-color: cornflowerblue;
+}
+.fifth-div
+{
+    position: sticky;
+    background-color: darkgoldenrod;
+    top: 60px;
+}
