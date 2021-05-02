@@ -2,3 +2,18 @@
 {
   background-color: aquamarine;
 }
+.div-2 > span
+{
+    font-size: 32px;
+}
+.div-3 + p
+{
+  background-color: blueviolet;
+  font-size: 20px;
+  border: solid black;
+}
+.div-4 ~ p
+{
+  background-color: red;
+  font-family: sans-serif;
+}
