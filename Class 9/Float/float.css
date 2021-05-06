@@ -1,0 +1,12 @@
+.div-1
+{
+   float: left;
+   background-color: rgb(148, 123, 173);
+  font-size: 50px;
+}
+.div-2
+{
+    float: right;
+    background-color: rgba(151, 100, 100, 0.822);
+    font-size: 50px;
+}

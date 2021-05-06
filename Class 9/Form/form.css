@@ -1,0 +1,35 @@
+form
+{
+   float: center;
+   border-color: black;
+   border: 2px solid;
+   box-sizing: border-box;
+   padding: inherit;
+   text-align: center;
+   height: 300px;
+   width: 300px;
+   
+}
+.singup
+{
+    float:right;
+    top: 00;
+    position:absolute;
+    text-align: right;
+ 
+}
+h1
+{
+    font-style: oblique;
+}
+span
+{
+    color: rgb(233, 94, 94);
+}
+.login
+{
+    color:black;
+    background-color: coral;
+    width: 100px;
+    height: 30px;
+}
