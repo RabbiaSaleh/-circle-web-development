@@ -1,30 +1,29 @@
 form
 {
-   float: center;
    border-color: black;
    border: 2px solid;
    box-sizing: border-box;
-   padding: inherit;
-   text-align: center;
    height: 300px;
    width: 300px;
+   margin: 0 auto;
+   margin-top: 0;
    
 }
 .singup
 {
-    float:right;
-    top: 00;
-    position:absolute;
     text-align: right;
+    float: right;
  
 }
 h1
 {
     font-style: oblique;
+    text-align: center;
 }
 span
 {
     color: rgb(233, 94, 94);
+    text-align: center;
 }
 .login
 {
@@ -32,4 +31,9 @@ span
     background-color: coral;
     width: 100px;
     height: 30px;
+    text-align: center;
+}
+.label
+{
+    text-align: center;
 }
