@@ -1,11 +1,14 @@
 .Flex-container
 {
-   padding: 10px;
-   font-size: 50px;
+   font-size: 20px;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 10px;
 }
-div
+.Flex-container > div
 {
-    background-color: rgb(178, 161, 230); 
+    background-color: rgb(196, 182, 238); 
+    width: 300px;
+    margin: 10px;
 }
