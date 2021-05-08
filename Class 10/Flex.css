@@ -1,0 +1,12 @@
+.Flex-container
+{
+   padding: 10px;
+   background-color: rgb(148, 123, 173);
+   font-size: 50px;
+   display: flex;
+   flex-direction: column;
+}
+.Flex-container < div
+{
+    
+}
