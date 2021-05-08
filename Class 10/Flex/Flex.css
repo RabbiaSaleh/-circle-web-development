@@ -1,0 +1,46 @@
+.Flex-container
+{
+   font-size: 20px;
+   display: flex;
+   flex-direction: row;
+   flex-flow: wrap row;
+   background-color: rgb(216, 182, 141);
+   justify-content: flex-end;
+   height: 200px;
+}
+.Flex-container > div
+{
+    background-color: rgb(93, 138, 158); 
+    width: 50px;
+    margin: 10px;
+    height: 60px;
+}
+.Flex-container >.div-1
+{
+    flex-shrink:10px;
+    width: 60px;
+    height:80px;
+}
+.Flex-container >.div-2
+{
+    flex-grow: 20px;
+    height:70px;
+    width: 90px;
+}
+.Flex-container-2
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap row;
+    background-color: rgb(156, 98, 98);  
+    align-items: flex-end;
+    margin: 10px;
+    height:300px;
+}
+.Flex-container-2 > div
+{
+    background-color: rgb(87, 160, 126); 
+    width: 50px;
+    margin: 10px;
+}
