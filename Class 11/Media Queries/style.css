@@ -11,30 +11,28 @@
     align-content: center;
     justify-content: center;
 }
-.grid-container > div
-{
-   background-color: wheat;
-}
 
-@media screen and ( max-width : 767px ){
-
-.div-1
+@media screen and ( max-width : 767px )
 {
-    background-color:darkgreen;
-    
-}
-}
-@media screen and ( min-width : 768px )(max-width:1024px){
-.div-1
-{
-    background-color:rgb(14, 14, 70);
-    
-}   
-} 
-@media screen and ( min-width : 1024px ){
     .div-1
     {
-        background-color:darkred;
+        background-color:darkgreen;
+    
+    }
+}
+@media screen and ( min-width : 768px) ,( max-width:1024px )
+{
+    .div-1
+    {
+        background-color:#08103a;
+    
+    }   
+} 
+@media screen and ( min-width : 1024px )
+{
+    .div-1
+    {
+        background-color:#c72c34;
         
     }
 }

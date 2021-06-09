@@ -9,13 +9,13 @@ body
 }
 h1
 {
-    font-size: 50px;
-    font-family: sans-serif;
+    font-size: 5em;
+    font-family: fantasy;
 }
 button
 {
     padding: 10px 3em;
-    font-size: 20px;
+    font-size: 2em;
     font-family: sans-serif;
     font-family: 'Courier New';
     border: none;
