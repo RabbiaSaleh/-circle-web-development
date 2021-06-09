@@ -1,0 +1,49 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(174, 243, 220);
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    font-size: 5em;
+    font-family:'Times New Roman', Times, serif;
+}
+button
+{
+    padding: 10px 3em;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-family: 'Courier New';
+    border: none;
+    background-color: rgb(49, 84, 197);
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 1px rgb(23, 26, 36);
+    margin-bottom: 1em;
+}
+button:focus
+{
+    outline: none;
+}
+button:hover
+{
+    background-color: #222;
+    color:rgb(196, 84, 84);
+}
+input
+{
+    padding: 1em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: none;
+}
+input:focus
+{
+    outline: none;
+    border: 1px solid rgb(32, 31, 31);
+    background-color: rgb(233, 210, 175);
+}
